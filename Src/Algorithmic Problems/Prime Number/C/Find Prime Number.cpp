@@ -17,10 +17,14 @@ int main () {
 			
 		for(int i =2; i < number ;i++) {
 			
-			if(number %i ==0)
+			if(number %i == 0){
 				printf( "%d is not prime number",number);
-			else if(number %i != 0 &&  number-1==i)
-				printf( "%d is prime number",number); 	
+				break;
+			}
+			else if(number %i != 0 &&  number-1 == i){
+				printf( "%d is prime number",number); 
+			}
+					
 		}
 	
 	}
