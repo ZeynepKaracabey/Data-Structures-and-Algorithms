@@ -21,9 +21,9 @@ int main () {
 				printf( "%d is not prime number",number);
 				break;
 			}
-			else if(number %i != 0 &&  number-1 == i){
+			else if(number %i != 0 &&  number-1 == i)
 				printf( "%d is prime number",number); 
-			}
+			
 					
 		}
 	
