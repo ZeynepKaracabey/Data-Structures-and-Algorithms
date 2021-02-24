@@ -11,7 +11,7 @@ int main () {
 	
 	printf( "Fermat Numbers:" );
 	
-	for( int i = 0; i < counter; i++) {
+	for( int i = 0; i <= counter; i++) {
 		
 		fermatNumber = pow(2,pow(2,i))+1;
 		printf("%d\t",fermatNumber);
